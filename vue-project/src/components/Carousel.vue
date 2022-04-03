@@ -3,9 +3,9 @@
     <img  src="./imgs/Ellipse 2.png">
 </div>
 
-<div id="carouselExampleSlidesOnly" class=" slide carousel carousels" data-bs-ride="carousel">
+<div id="carouselExampleSlidesOnly" class=" slide carousel imageness" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active ">
       <img src="./imgs/ddkkrta-d3d6161c-7370-4ec7-a1e0-6a051999be0f 1.png" class="d-block w-100" alt="Uno">
     </div>
     <div class="carousel-item">
@@ -28,17 +28,18 @@ export default {
 
 .elipse{
 position: absolute;
-width: 548px;
-height: 548px;
-left: 100px;
-top: 63px;
+width: 500px;
+height: 500px;
+left: 10%;
+top: 10%;
 }
-.carousels{
-    transition: transform 2s;
-    position: absolute;
-width: 622px;
-height: 625px;
-left: 100px;
-top: 128px;
+
+.imageness{
+  position: absolute;
+  width:400px;
+  height: 300px;
+  left:15%;
+  top:8%
 }
+
 </style>

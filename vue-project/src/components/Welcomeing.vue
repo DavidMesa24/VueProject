@@ -19,21 +19,25 @@ export default {
 
 <style>
 .imgs{
+    width: 70%;
+    height:10%;
+    display:block;
+margin:auto;
 position: absolute;
-width: 277px;
-height: 136px;
-left: 206px;
-top: 135px;
+max-width: 255px;
+min-height: 140px;
+left: 32%;
+top: 15%;
+align-items: center;
 background: url(./imgs/pack2779.png);
 }
 
 .primTex
 {
-    position: absolute;
-width: 258px;
-height: 40px;
-left: 219px;
-top: 276px;
+position: absolute;
+left:15%;
+width: 70%;
+top: 35%;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -47,11 +51,12 @@ color: #FFFFFF;
 }
 .secTex
 {
-    position: absolute;
-width: 260px;
-height: 20px;
-left: 216px;
-top: 339px;
+position: absolute;
+width: 70%;
+height: 20%;
+top: 42%;
+left:15%;
+
 
 font-family: 'Roboto';
 font-style: italic;

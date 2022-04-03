@@ -45,13 +45,13 @@ export default {};
   position: absolute;
   width: 38px;
   height: 21px;
-  left: 182px;
-  top: 412px;
+  left: 25%;
+  top: 50%;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 21px;
   /* identical to box height */
 
@@ -62,14 +62,13 @@ export default {};
 .contra{
     position: absolute;
 width: 82px;
-height: 21px;
-left: 182px;
-top: 503px;
+left: 25%;
+top: 59%;
 
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
+font-weight: 300;
+font-size: 14px;
 line-height: 21px;
 /* identical to box height */
 
@@ -79,11 +78,12 @@ color: #FFFFFF;
 }
 .inEmail {
   position: absolute;
-  width: 343px;
-  height: 60px;
-  left: 181px;
-  bottom: 530px;
+  width: 50%;
+  height: 6%;
+  left: 25%;
+  bottom: 41%;
   color: white;
+  min-width: 250px;
 
   background: rgba(255, 255, 255, 0.47);
   border: 2px solid white;
@@ -93,11 +93,12 @@ color: #FFFFFF;
 
 .inPasw{
     position: absolute;
-width: 343px;
-height: 60px;
-left: 181px;
-bottom: 440px;
+width: 50%;
+  height: 6%;
+  left: 25%;
+bottom: 32%;
 color: white;
+min-width: 250px;
 
 background: rgba(255, 255, 255, 0.47);
 border: 2px solid #FFFFFF;
@@ -108,11 +109,12 @@ border-radius: 10px;
 .btnAcc
 {
     position: absolute;
-width: 338px;
-height: 60px;
-left: 183px;
-bottom: 336px;
+width: 50%;
+  height: 6%;
+  left: 25%;
+bottom: 24%;
 text-decoration: solid;
+min-width: 250px;
 
 background: #E487FB;
 border-radius: 10px;
@@ -120,30 +122,33 @@ border-radius: 10px;
 
 .line1{
     position: absolute;
-width: 80px;
+width: 15%;
+min-width: 100px;
 height: 0px;
-left: 181px;
-top: 741px;
+left: 20%;
+top: 80%;
 
 border: 2px solid #FFFFFF;
 }
 
 .line2{
 position: absolute;
-width: 80px;
+width: 15%;
+min-width: 100px;
 height: 0px;
-left: 443px;
-top: 741px;
+left: 65%;
+top: 80%;
 
 border: 2px solid #FFFFFF;
 }
 
 .regTxt{
     position: absolute;
-width: 163px;
+width: 18%;
+min-width: 100px;
 height: 21px;
-left: 272px;
-top: 731px;
+left: 42%;
+top: 79%;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -161,10 +166,10 @@ color: #FFFFFF;
 .insta
 {
     position: absolute;
-width: 51px;
-height: 51px;
-left: 235px;
-top: 772px;
+width: 50px;
+height: 50px;
+left: 30%;
+top: 85%;
 
 background: rgba(255, 255, 255, 0.47);
 border: 2px solid #FFFFFF;
@@ -173,11 +178,11 @@ border-radius: 10px;
 }
 
 .twitter{
-    position: absolute;
-width: 51px;
-height: 51px;
-left: 329px;
-top: 772px;
+position: absolute;
+width: 50px;
+height: 50px;
+left:47%;
+top: 85%;
 
 background: rgba(255, 255, 255, 0.47);
 border: 2px solid #FFFFFF;
@@ -187,10 +192,10 @@ border-radius: 10px;
 
 .facebook{
     position: absolute;
-width: 51px;
-height: 51px;
-left: 423px;
-top: 772px;
+width: 50px;
+height: 50px;
+left:65%;
+top: 85%;
 
 background: rgba(255, 255, 255, 0.47);
 border: 2px solid #FFFFFF;

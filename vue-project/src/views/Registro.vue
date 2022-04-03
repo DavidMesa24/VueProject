@@ -1,13 +1,10 @@
 <template>
-<header>
 
-</header>
-<div class=" contenedor">
+  <div class=" contenedor">
   <div class="row align-items-start">
     <div class="col colOne">
         <TopBrand/>
-        <Welcomeing/>
-        <Formulario/>
+        <FormularioRegistro/>
     </div>
     <div class="col colTwo d-none d-xl-block">
       <Carousel/>
@@ -18,13 +15,14 @@
 </template>
 
 <script lang="ts">
-import TopBrand from "./TopBrand.vue";
-import Welcomeing from "./Welcomeing.vue";
-import Formulario from "./Formulario.vue";
-import Carousel from "./Carousel.vue";
-import BttmBrand from "./BttmBrand.vue";
+import TopBrand from "../components/TopBrand.vue";
+import Welcomeing from "../components/Welcomeing.vue";
+import Formulario from "../components/Formulario.vue";
+import Carousel from "../components/Carousel.vue";
+import BttmBrand from "../components/BttmBrand.vue";
+import FormularioRegistro from "../components/FormularioRegistro.vue";
 export default {
-    components: { TopBrand, Welcomeing, Formulario, Carousel, BttmBrand }
+    components: { TopBrand, Welcomeing, Formulario, Carousel, BttmBrand, FormularioRegistro }
 }
 </script>
 
@@ -49,5 +47,4 @@ background: #3E1149;
 .cotenedor{
   width:100%;
 }
-
 </style>
