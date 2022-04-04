@@ -1,43 +1,27 @@
 <template>
-  <div class = 'imagen'/>
-  <h1 class = 'anim'>
-    animeyabu.
-  </h1>
+  <div class="d-flex flex-column bd-highlight mb-3">
+    <div class="p-2 bd-highlight">
+      <img
+        src="../../public/pack2779.png"
+        class="rounded mx-auto d-block"
+        alt="..."
+      />
+    </div>
+    <div class="p-2 bd-highlight text-center text-light">
+      <h1>ひさしぶり!</h1>
+    </div>
+    <div class="p-2 bd-highlight text-center text-light">
+        <h7>
+            
+¡Hola, te extrañamos!
+        </h7>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-.imagen{
-position: absolute;
-width: 46px;
-height: 46px;
-left: 23px;
-top: 19px;
-background: url(./imgs/image1.png);
-}
-
-.anim{
-
-position: absolute;
-width: 129px;
-height: 26px;
-left: 83px;
-top: 30px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 22px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.065em;
-
-color: #FFFFFF;
-}
-
 </style>
